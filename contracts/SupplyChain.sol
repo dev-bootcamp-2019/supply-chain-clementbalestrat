@@ -4,10 +4,10 @@ pragma solidity ^0.4.23;
 contract SupplyChain {
 
     /* set owner */
-    address public owner;
+    address owner;
 
     /* Add a variable called skuCount to track the most recent sku # */
-    uint public skuCount;
+    uint skuCount;
 
     /* Add a line that creates a public mapping that maps the SKU (a number) to an Item.
         Call this mappings items
